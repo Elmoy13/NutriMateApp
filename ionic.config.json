@@ -1,0 +1,7 @@
+{
+  "name": "nutriMate",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
