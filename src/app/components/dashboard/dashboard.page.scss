@@ -1,0 +1,94 @@
+ion-content {
+  --background: #f8f8f8;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+img{
+  width: auto;
+  height: auto;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  margin: 0;
+}
+
+ion-col {
+  padding: 16px;
+  text-align: center;
+}
+
+
+
+ion-grid ion-col {
+  text-align: center;
+}
+
+
+.statistics{
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 15px;
+
+}
+
+h1{
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+
+
+ion-button[shape=circle]{
+  --border-radius:50%;
+  width: 56px;
+  height: 56px;
+  float: right;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eeeeee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+.percentage {
+  fill: #666;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+  100% {
+    stroke-dasharray: 50 100;
+  }
+}
+
+
+
+
